@@ -68,12 +68,12 @@ a:hover{
 	color:#40aaa5;
 }
 
- #about_me_container, #connect_container,#portfolio_content{
+ #about_me_container, #connect_container,#portfolio_content,#contactcontainer{
  	margin-top:20px;
  }
 
 
- #about_me_container,#portfolio_content{
+ #about_me_container,#portfolio_content,#contactcontainer{
  	clear:both;
  	float:left;
  	background-color:#ffffff;
@@ -84,12 +84,12 @@ a:hover{
  	border:1px solid #dddddd;
  }
 
- #about_meheading, #portfolio_heading{
+ #about_meheading, #portfolio_heading, #contact_heading{
 	margin:0 0 10px 10px;
 	padding:20px 0 10px 10px;
 }
 
-#about_divider,#portfolio_divider{
+#about_divider,#portfolio_divider,#contact_divider{
 	background-color:#ececec;
 	margin:10px 20px;
 	padding:0;
@@ -215,4 +215,39 @@ h4{
 	top:100px;
 	right:0px;
 	padding:10px 100px;
+}
+
+#contactcontainer{
+	height:500px;
+}
+
+form{
+	display:block;
+	margin-left:20px;
+}
+label{
+	display:block;
+	font-size: 20px;
+	margin-bottom:5px;
+	margin-top:2.5px;
+
+}
+#inputname,#inputemail{
+	width:610px;
+	height:25px;
+
+}
+
+textarea{
+	height:200px;
+	width:610px;
+}
+
+#subbutton{
+	color:#ffffff;
+	font-size: 20px;
+	background-color:#40aaa5;
+	border:none;
+	padding:10px 60px;
+
 }
