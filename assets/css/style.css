@@ -21,6 +21,7 @@ body{
 	background-color:#ffffff;
 	height:70px;
 	width:100%;
+	border-bottom:2px solid #cccccc;
 }
 
  h2,h3, h6{
@@ -57,6 +58,10 @@ body{
  	padding-right:10px;
  }
 
+a:hover{
+	color:#40aaa5;
+}
+
  #about_me_container, #connect_container{
  	margin-top:20px;
  }
@@ -70,6 +75,7 @@ body{
  	height:600px;
  	margin-left:152.5px;
  	margin-bottom: 30px;
+ 	border:1px solid #dddddd;
  }
 
  #about_meheading{
@@ -106,6 +112,7 @@ body{
  	background-color:#ffffff;
  	width:270px;
  	margin-right:152.5px;
+ 	border:1px solid #dddddd;
  }
 
 #connect_heading{
