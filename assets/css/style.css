@@ -94,7 +94,7 @@ body{
 
 
 }
-#first_paragraph, #second_paragraph{
+#first_paragraph, #second_paragraph, #third_paragraph{
 	line-height: 1.5;
 	text-align:justify;
 	padding-top:10px;
