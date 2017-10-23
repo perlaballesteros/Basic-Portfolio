@@ -29,6 +29,10 @@ body{
  	color: #40aaa5;
  }
 
+ h4{
+	font-family:'georgia', times,'times new roman', serif;
+ }
+
  #name_heading{
  	color: #ffffff;
  	background-color:#40aaa5;
@@ -50,6 +54,8 @@ body{
  }
 
  a{
+ 	margin:0;
+ 	padding:0;
  	text-decoration: none;
  	color:#b1afa6;
  }
@@ -62,28 +68,28 @@ a:hover{
 	color:#40aaa5;
 }
 
- #about_me_container, #connect_container{
+ #about_me_container, #connect_container,#portfolio_content{
  	margin-top:20px;
  }
 
 
- #about_me_container{
+ #about_me_container,#portfolio_content{
  	clear:both;
  	float:left;
  	background-color:#ffffff;
  	width:650px;
- 	height:600px;
+ 	height:700px;
  	margin-left:152.5px;
  	margin-bottom: 30px;
  	border:1px solid #dddddd;
  }
 
- #about_meheading{
+ #about_meheading, #portfolio_heading{
 	margin:0 0 10px 10px;
 	padding:20px 0 10px 10px;
 }
 
-#about_divider{
+#about_divider,#portfolio_divider{
 	background-color:#ececec;
 	margin:10px 20px;
 	padding:0;
@@ -166,9 +172,47 @@ footer{
 h5{
 	margin:0;
 	padding-top:30px;
+	
+}
+h4{
+	width:100px;
+	height:40px;
+}
+.containerportfolioleft{
+	float:left;
+	width:280px;
+	height:190px;
+	margin-top:10px;
+	margin-left:20px;	
+	position:relative;
+	text-align: center;
+	color:white;
+}
+
+#hangmantext,#triviatext,#rocktext{
+	position:absolute;
+	background-color:#40aaa5; 
+	top:100px;
+	left:0px;
+	padding:10px 100px;	
 
 }
-/*
 
+.containerportfolioright{
+	float:right;
+	width:300px;
+	height:190px;
+	margin-top:10px;
+	margin-right:20px;	
+	position:relative;
+	text-align: center;
+	color:white;
+}
 
-
+#rpgtext,#rutgerstext{
+	position:absolute;
+	background-color:#40aaa5; 
+	top:100px;
+	right:0px;
+	padding:10px 100px;
+}
