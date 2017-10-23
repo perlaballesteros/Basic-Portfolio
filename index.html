@@ -2,8 +2,9 @@
 <html>
 
 	<head>
+		<meta charset="utf-8">
 		<title>
-			My Basic Portfolio
+			Perla E. Ballesteros Portfolio
 		</title>
 
 		<!--Linking the css style to this html-->
@@ -13,26 +14,70 @@
 
 <body>
 
-	<!--div container-->
+	<!--container-->
 	<div id="container">
 
-	<!--green line on top of nav bar-->
-	
+		<div id="nav_container">
 
-	<!--div will hold the navigation bar-->
+		<!--Name Heading-->
+			<h2 id="name_heading">Perla E. Ballesteros</h3>
+
+		<!--Nav bar holds name and links-->		
+			<ul id="navbar">
+				<li id="move_margin"><a href="#contact">Contact</a></li>
+				<li class="navseparators"> | </li>
+  				<li class="navlinks"><a href="#portfolio"> Portfolio </a></li>
+  				<li class="navseparators"> | </li>
+  				<li class="navlinks"><a href="#about">About </a></li>
+
+			</ul>
+		</div>
+	
+	<!--Section will hold the about me content and image-->
+		<section id="about_me_container">
+			
+			<h2 id="about_meheading">About Me</h2>
+
+			<!--Line divider-->
+			<div id="about_divider">
+
+			<!--ABOUT ME IMAGE-->
+			<img id="bio-image" src="assets/images/perlaballesteros.jpg" alt="PerlaEB">
+			
+			<div id="paragraphs">
+			<!--About Me Paragraphs-->
+			<p id="first_paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+			<p id="second_paragraph">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+			</div>
+
+		</section>
+
+
+	<!--section will hold social media link images-->
+		<section id="connect_container">
+
+
+			<h3 id="connect_heading">Connect with Me</h3>
+
+		<!--Line divider-->
+			<div id="connect_divider"></div>
+		<!--GitHub icon image that will open in a new tab-->
+			<a class="imglinks" href="https://github.com/perlaballesteros" target="_blank"><image id="githubicon" src="assets/images/githubicon.png"></a>
+
+		<!--linkedin icon image that will open in a new tab-->
+			<a class="imglinks" href="https://www.linkedin.com/in/perla-ballesteros-6380ab115/" target="_blank"><image id="linkeinicon" src="assets/images/linkedinicon.png"></a>
+
+		<!--stackoverflow icon image that will open in a new tab-->
+			<a class="imglinks" href="https://stackexchange.com/users/11684595/perlaballesteros?tab=accounts" target="_blank"><image id="stackicon" src="assets/images/stackoverflow.jpg"></a>
+
+		</section>
+
+	<!--Sticky footer-->
+		<div id="footertop"></div>
+			<footer>
+				<h5>@copyright2017 Perla E. Ballesteros</h5>	</footer>
 		
-		<ul id="navbar">
-			<li id="navname">Perla E. Ballesteros</li>
-			<li id="move"><a href="#contact">Contact</a></li>
-			<li class="navseparators"> | </li>
-  			<li class="navlinks"><a href="#portfolio"> Portfolio </a></li>
-  			<li class="navseparators"> | </li>
-  			<li class="navlinks"><a href="#about">About </a></li>
-
-		</ul>
-	
 	</div>
-
-	<footer></footer>
 </body>
 </html>
