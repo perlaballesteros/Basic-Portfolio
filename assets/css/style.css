@@ -238,7 +238,6 @@ h4{
 }
 
 form{
-	display:block;
 	margin-left:20px;
 }
 label{
@@ -248,14 +247,15 @@ label{
 	margin-top:2.5px;
 
 }
-#inputname,#inputemail{
+input{
 	width:610px;
-	height:25px;
+}
+#inputname,#inputemail{
 
 }
 
-textarea{
-	height:200px;
+#message{
+	height:150px;
 	width:610px;
 }
 
@@ -265,6 +265,7 @@ textarea{
 	background-color:#40aaa5;
 	border:none;
 	padding:10px 60px;
+	width:200px;
 
 }
 

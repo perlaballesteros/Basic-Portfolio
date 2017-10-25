@@ -40,26 +40,30 @@
 			<!--Line divider-->
 			<div id="contact_divider"></div>
 
-			<form action="mailto:perlaballesteros@email.arizona.edu" method="post" enctype="text/plain">
+
+		<!--CONTACT FORM-->
+			<form action="mailto:perlaballesteros@email.arizona.edu" method="post">
+
+			<!--NAME LABEL/INPUT-->
 				<label for="name">Name</label>
 				
-				<input type="text" id="name" placeholder="Your Name" >
+				<input id="name" type="text" placeholder="Your Name">
+
+			<!--EMAIL LABEL/INPUT-->	
+				<label id="email_label">Email</label>
 				
-				<label for="email" ectype="text/plain">Email</label>
-				
-				<input id="inputemail" type="text/plain" id="email" placeholder="youremail@example.com">
-				
-				<label for="Message">Message</label>
+				<input name="email" type="text" placeholder="youremail@example.com">
+
+			<!--MESSAGE LABEL/INPUT-->	
+				<label for="message">Message</label>
 				
 				<textarea name="message" id="message" placeholder="Write your message..."></textarea>
 
+			<!--SUBMIT BUTTON-->
 				<input id="subbutton" type="submit" value="Submit">
 	
 			</form>
 		</div>
-
-
-
 
 		<!--section will hold social media link images-->
 		<section id="connect_container">
@@ -69,13 +73,18 @@
 		<!--Line divider-->
 			<div id="connect_divider"></div>
 		<!--GitHub icon image that will open in a new tab-->
-			<a class="imglinks" href="https://github.com/perlaballesteros" target="_blank"><img id="githubicon" src="assets/images/githubicon.png"></image></a>
+			<a class="imglinks" href="https://github.com/perlaballesteros" target="_blank">
+				<img alt="githubimage" id="githubicon" src="assets/images/githubicon.png">
+			</a>
 
 		<!--linkedin icon image that will open in a new tab-->
-			<a class="imglinks" href="https://www.linkedin.com/in/perla-ballesteros-6380ab115/" target="_blank"><img id="linkeinicon" src="assets/images/linkedinicon.png"></a>
+			<a class="imglinks" href="https://www.linkedin.com/in/perla-ballesteros-6380ab115/" target="_blank">
+				<img alt="linkedinimage" id="linkeinicon" src="assets/images/linkedinicon.png">
+			</a>
 
 		<!--stackoverflow icon image that will open in a new tab-->
-			<a class="imglinks" href="https://stackexchange.com/users/11684595/perlaballesteros?tab=accounts" target="_blank"><img id="stackicon" src="assets/images/stackoverflow.jpg"></a>
+			<a class="imglinks" href="https://stackexchange.com/users/11684595/perlaballesteros?tab=accounts" target="_blank">
+			<img alt="stackiconimage" id="stackicon" src="assets/images/stackoverflow.jpg"></a>
 		</section>
 		
 	<!--footer divider-->
@@ -85,5 +94,6 @@
 		<footer>
 			<h5>@copyright2017 Perla E. Ballesteros</h5>	
 		</footer>
-</div>
+	</div>
 </body>
+</html>
