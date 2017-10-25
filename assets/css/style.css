@@ -1,6 +1,7 @@
 body{
 	margin:0;
 	padding:0;
+
 }
 
 #container{
@@ -23,6 +24,13 @@ body{
 	width:100%;
 	border-bottom:2px solid #cccccc;
 }
+ h2{
+ 	font-size:27px;
+ }
+  h3{
+  	font-size:21px;
+  	margin-top:18.72px;
+  }
 
  h2,h3, h6{
  	font-family:'georgia', times,'times new roman', serif;
