@@ -273,3 +273,8 @@ input{
 	color:#40aaa5;
 	background-color:#ffffff;
 }
+
+p{
+	margin-left:10px;
+	margin-right:10px;
+}
